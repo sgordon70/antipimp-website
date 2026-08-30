@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scott Gordon</title>
+<meta name="description" content="Scott Gordon — technology, business, travel, and whatever else I'm currently obsessed with. Nashville, Tennessee.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --ink: #1a1a1a;
+    --ink-muted: #555555;
+    --ink-faint: #999999;
+    --font-display: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8vh 8vw;
+    font-family: var(--font-body);
+  }
+
+  .hero {
+    max-width: 640px;
+  }
+
+  h1 {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin: 0 0 1.5rem 0;
+    letter-spacing: 0.01em;
+  }
+
+  .tagline {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--ink-muted);
+    margin: 0 0 0.5rem 0;
+    max-width: 32ch;
+  }
+
+  .location {
+    font-size: 0.9rem;
+    color: var(--ink-faint);
+    margin: 0 0 2.5rem 0;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0 0 0.6rem 0;
+  }
+
+  nav a {
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.95rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+
+  nav a:hover {
+    border-color: var(--ink);
+    color: var(--ink);
+  }
+
+  section {
+    max-width: 640px;
+    margin: 6rem auto 0 auto;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+  }
+
+  section h2 {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 0 0 1rem 0;
+  }
+
+  section p, section li {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--ink-muted);
+  }
+
+  section ul {
+    padding-left: 1.1rem;
+    margin: 0;
+  }
+
+  section a {
+    color: var(--ink);
+  }
+
+  .sections-wrap {
+    padding: 0 8vw 8vh 8vw;
+  }
+
+  footer {
+    max-width: 640px;
+    margin: 4rem auto 0 auto;
+    padding: 0 8vw 4rem 8vw;
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+  }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Scott Gordon</h1>
+    <p class="tagline">I build cool shit. Technology. Business. Travel. And whatever else I'm currently obsessed with.</p>
+    <p class="location">Nashville, Tennessee</p>
+
+    <nav>
+      <ul>
+        <li><a href="#now">now</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="sections-wrap">
+    <section id="now">
+      <h2>now</h2>
+      <p>Building and shipping a handful of small products — an iOS flashcard app, a family audio journaling app, an outdoor quest app, and a camera-based reading app. More on that below.</p>
+    </section>
+
+    <section id="work">
+      <h2>work</h2>
+      <ul>
+        <li><strong>Retrieve</strong> — a native iOS flashcard app built on real FSRS spaced repetition. One payment, no subscription.</li>
+        <li><strong>Kinfire</strong> — a family audio journaling app for capturing stories worth keeping.</li>
+        <li><strong>DropQuest</strong> — an outdoor quest app that turns exploring your city into a game.</li>
+        <li><strong>Roah</strong> — a camera and OCR-based reading app.</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>about</h2>
+      <p>I build things — mostly software, sometimes businesses. Based in Nashville, Tennessee. Currently obsessed with shipping small, useful products.</p>
+    </section>
+
+    <section id="contact">
+      <h2>contact</h2>
+      <p><a href="mailto:hello@antipimp.com">hello@antipimp.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2026 Scott Gordon
+  </footer>
+
+</body>
+</html>
