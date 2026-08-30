@@ -1,0 +1,86 @@
+:root {
+  --bg: #ffffff;
+  --ink: #1a1a1a;
+  --ink-muted: #555555;
+  --font-display: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  padding: 3rem;
+  font-family: var(--font-body);
+}
+
+.hero {
+  max-width: 400px;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 0 0 0.75rem 0;
+  letter-spacing: 0.01em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 0 0.15rem 0;
+}
+
+nav a {
+  color: var(--ink-muted);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+nav a:hover {
+  color: var(--ink);
+}
+
+main {
+  max-width: 400px;
+  margin-top: 1.5rem;
+}
+
+main p, main li {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--ink-muted);
+}
+
+main ul {
+  padding-left: 1rem;
+  margin: 0;
+}
+
+main a {
+  color: var(--ink);
+}
+
+.back {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  text-decoration: none;
+}
+
+.back:hover {
+  color: var(--ink);
+}
