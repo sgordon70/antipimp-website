@@ -2,8 +2,8 @@
   --bg: #ffffff;
   --ink: #1a1a1a;
   --ink-muted: #555555;
-  --font-display: Georgia, "Iowan Old Style", "Times New Roman", serif;
-  --font-body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Courier Prime", "Courier New", Courier, monospace;
+  --font-body: "Courier Prime", "Courier New", Courier, monospace;
 }
 
 * { box-sizing: border-box; }
