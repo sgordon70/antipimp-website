@@ -81,6 +81,13 @@ main a {
   color: var(--ink);
 }
 
+.press-photo {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin-top: 0.75rem;
+}
+
 .back {
   display: inline-block;
   margin-top: 1.5rem;
